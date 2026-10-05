@@ -34,5 +34,11 @@
   "reportOptionalMemberAccess": false,
   "reportAttributeAccessIssue": false,
   "reportCallIssue": false,
-  "reportGeneralTypeIssues": false
+  "reportGeneralTypeIssues": false,
+  "reportArgumentType": "warning",
+  "reportPrivateImportUsage": "warning",
+  "reportOperatorIssue": "warning",
+  "reportOptionalOperand": "warning",
+  "reportIndexIssue": "warning",
+  "reportOptionalSubscript": "warning"
 }
