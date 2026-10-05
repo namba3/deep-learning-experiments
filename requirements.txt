@@ -1,0 +1,26 @@
+# Runtime dependencies for the repository's training, inference, and optimizer code.
+# Install a PyTorch/torchvision wheel pair compatible with your Python, OS, and accelerator.
+torch
+torchvision
+
+numpy
+Pillow
+safetensors
+tensorboard
+rich
+torchinfo
+
+datasets
+diffusers
+huggingface-hub
+transformers
+
+aptx-activation
+came-pytorch
+muon-optimizer
+schedulefree
+typing-extensions
+
+# Optional GPU telemetry and custom kernels (platform-dependent):
+# nvidia-ml-py
+# triton

@@ -1,0 +1,38 @@
+{
+  "include": [
+    "core",
+    "optimizers",
+    "tests/unit"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "tests/integration",
+    "image_gen/train.py",
+    "cifar10_ae/train.py",
+    "cifar10/train.py",
+    "mnist/train.py",
+    "text_lm/train.py"
+  ],
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": [
+        "."
+      ]
+    }
+  ],
+  "pythonVersion": "3.14",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": false,
+  "reportMissingTypeStubs": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownParameterType": false,
+  "reportMissingParameterType": false,
+  "reportUntypedFunctionDecorator": false,
+  "reportOptionalMemberAccess": false,
+  "reportAttributeAccessIssue": false,
+  "reportCallIssue": false,
+  "reportGeneralTypeIssues": false
+}
