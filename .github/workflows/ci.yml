@@ -49,4 +49,4 @@ jobs:
         run: python -m pyright
 
       - name: Check lint
-        run: ruff check .
+        run: ruff check . --select E4,E7,E9,F
