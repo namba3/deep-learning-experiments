@@ -29,7 +29,7 @@
 - Git履歴には削除後の情報が残る。公開用リポジトリを作る場合、履歴・tag・remoteを含めて公開対象を確認し、個人情報を含む既存履歴をそのまま公開しない。新規履歴のcommit identityにも公開用メールアドレスを使う。
 - `.gitignore` でdataset、checkpoint、run output、cache、credential fileを除外し、公開に必要な小さな再現用例だけを明示的に追跡する。
 
-## レビュー観点
+## 変更時の確認観点
 
 各変更では、次の質問に答えられる状態にする。
 
@@ -37,6 +37,10 @@
 2. peak VRAM、step時間、kernel時間、optimizer stateのどれが改善または悪化したか。
 3. 他のtrain scriptやsamplerから再利用できるAPIになっているか。
 4. checkpoint、resume、CLI、テスト、ドキュメントを含めて保守できるか。
+
+## Code Review
+
+コードレビューを行う場合は、[REVIEW.md](./REVIEW.md)を読み、そのレビュー専用基準に従ってください。このファイルの通常の作業指示は、引き続き実装・検証作業に適用します。
 
 ## 検証コマンド
 
